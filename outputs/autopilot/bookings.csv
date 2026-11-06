@@ -1,0 +1,2 @@
+unit,site_id,problem,part_id,technician_id,flagged,depart,arrive,done,cost_eur,night_callout,note
+C1-3,S1,fan,P_FAN,TE1,2026-11-12 05:30:00+02:00,2026-11-12 08:00:00+02:00,2026-11-12 08:15:00+02:00,2026-11-12 09:43:00+02:00,333.4,False,"P_FAN (Local service base, 4 in stock)"

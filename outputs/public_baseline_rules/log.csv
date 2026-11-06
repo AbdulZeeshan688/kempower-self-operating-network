@@ -1,0 +1,4 @@
+ts,site_id,layer,type,decision,reason,human_needed
+2026-11-13 11:00:00+02:00,S3,charger,connectivity,Backend lost: dispensers fall back to 50 kW,today's offline fallback,no
+2026-11-13 13:00:00+02:00,S3,charger,connectivity,Backend back,today's offline fallback,no
+2026-11-13 21:30:00+02:00,S4,charger,fault,D4-2 tripped during a session,fault,no

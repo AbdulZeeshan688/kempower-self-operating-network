@@ -1,0 +1,5 @@
+site_id,day,arrivals,abandoned_data,abandoned_replay_today_rules,abandoned_autopilot
+S3,Thu 12.11,209,41,37,36
+S3,Fri 13.11,256,76,70,51
+S4,Thu 12.11,121,8,0,0
+S4,Fri 13.11,101,1,1,0

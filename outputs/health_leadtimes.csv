@@ -1,0 +1,10 @@
+unit,fault_id,failure_ts,state,flag_ts,lead_h,reason
+C1-3,F015,2026-11-13 01:50:00+02:00,watch,2026-11-12 05:30:00+02:00,20.3,"fan 1640 rpm, falling 57 rpm/h, projected cabinet trip ~Fri 01:32; cabinet 12.9 °C warmer than sibling cabinets"
+C1-3,F015,2026-11-13 01:50:00+02:00,degrading,2026-11-12 05:30:00+02:00,20.3,"fan 1640 rpm, falling 57 rpm/h, projected cabinet trip ~Fri 01:32; cabinet 12.9 °C warmer than sibling cabinets"
+C1-3,F015,2026-11-13 01:50:00+02:00,critical,2026-11-12 19:15:00+02:00,6.6,fan reaches 700 rpm in 3.6 h; fan speed down 26% in 6 h; cabinet 4.5 °C warmer than sibling cabinets
+D4-2,F017,2026-11-13 21:30:00+02:00,watch,2026-11-13 19:15:00+02:00,2.2,2 error events in 6 h
+D4-2,F017,2026-11-13 21:30:00+02:00,degrading,2026-11-13 20:00:00+02:00,1.5,4 error events in 2 h
+D4-2,F017,2026-11-13 21:30:00+02:00,critical,2026-11-13 21:00:00+02:00,0.5,6 error events in 2 h
+D3-3,F014,2026-11-11 16:40:00+02:00,watch,2026-11-10 21:45:00+02:00,18.9,2 error events in 6 h
+D3-3,F014,2026-11-11 16:40:00+02:00,degrading,2026-11-11 03:30:00+02:00,13.2,3 error events in 2 h
+D3-3,F014,2026-11-11 16:40:00+02:00,critical,2026-11-11 05:00:00+02:00,11.7,7 error events in 2 h

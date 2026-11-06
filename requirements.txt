@@ -1,0 +1,6 @@
+pandas>=2.2
+numpy>=1.26
+pulp==2.9.0        # 2.9 ships the CBC solver; PuLP 4.x does not
+streamlit>=1.38
+plotly>=5.20
+pytest>=8.0

@@ -1,0 +1,51 @@
+ts,site_id,layer,type,decision,reason,human_needed
+2026-11-11 12:00:00+02:00,S5,site,health,D5-8 healthy -> offline,offline,no
+2026-11-11 19:45:00+02:00,S5,site,bay,B26 -> waiting row; planned bay D5-2 at 23:30,all bays busy,driver
+2026-11-11 20:00:00+02:00,S5,site,bay,B29 -> bay D5-4,"arrives 19 %, leaves Thu 05:45, needs 96 %",driver
+2026-11-11 20:15:00+02:00,S5,site,bay,B32 -> bay D5-2,"arrives 20 %, leaves Thu 05:40, needs 97 %",driver
+2026-11-11 20:15:00+02:00,S5,site,bay,B30 -> bay D5-3,"arrives 19 %, leaves Thu 05:40, needs 98 %",driver
+2026-11-11 20:45:00+02:00,S5,site,bay,B25 -> waiting row; planned bay D5-4 at 23:15,all bays busy,driver
+2026-11-11 21:15:00+02:00,S5,site,bay,B31 -> bay D5-7,"arrives 25 %, leaves Thu 06:00, needs 97 %",driver
+2026-11-11 22:00:00+02:00,S5,site,bay,B36 -> waiting row; planned bay D5-3 at 23:30,all bays busy,driver
+2026-11-11 22:30:00+02:00,S5,site,bay,B35 -> bay D5-5,"arrives 11 %, leaves Thu 05:50, needs 98 %",driver
+2026-11-11 22:45:00+02:00,S5,site,bay,B33 -> bay D5-6,"arrives 11 %, leaves Thu 05:55, needs 97 %",driver
+2026-11-11 22:45:00+02:00,S5,site,bay,B34 -> waiting row; planned bay D5-5 at 02:00,all bays busy,driver
+2026-11-11 23:00:00+02:00,S5,site,bay,B27 -> waiting row; planned bay D5-4 at 02:15,all bays busy,driver
+2026-11-11 23:15:00+02:00,S5,site,move,"Planned yard move: move full B29 (96 %) out, plug B25 into D5-4",more vehicles than dispensers,yes
+2026-11-11 23:15:00+02:00,S5,site,bay,B28 -> bay D5-1,"arrives 19 %, leaves Thu 05:30, needs 97 %",driver
+2026-11-11 23:30:00+02:00,S5,site,move,"Planned yard move: move full B32 (97 %) out, plug B26 into D5-2",more vehicles than dispensers,yes
+2026-11-11 23:30:00+02:00,S5,site,move,"Planned yard move: move full B30 (98 %) out, plug B36 into D5-3",more vehicles than dispensers,yes
+2026-11-12 02:00:00+02:00,S5,site,move,"Planned yard move: move full B35 (98 %) out, plug B34 into D5-5",more vehicles than dispensers,yes
+2026-11-12 02:15:00+02:00,S5,site,move,"Planned yard move: move full B25 (96 %) out, plug B27 into D5-4",more vehicles than dispensers,yes
+2026-11-12 14:00:00+02:00,S5,cloud,price,"Day-ahead prices for Fri 13.11: spike 17:15-18:45, max 799 €/MWh; plan moves charging out",price event in published day-ahead prices,no
+2026-11-12 19:45:00+02:00,S5,site,bay,B26 -> bay D5-1,"arrives 8 %, leaves Fri 06:10, needs 96 %",driver
+2026-11-12 20:00:00+02:00,S5,site,bay,B29 -> bay D5-4,"arrives 10 %, leaves Fri 05:45, needs 97 %",driver
+2026-11-12 20:00:00+02:00,S5,site,bay,B30 -> bay D5-2,"arrives 8 %, leaves Fri 05:40, needs 97 %",driver
+2026-11-12 20:00:00+02:00,S5,site,bay,B32 -> bay D5-3,"arrives 14 %, leaves Fri 05:40, needs 96 %",driver
+2026-11-12 20:45:00+02:00,S5,site,bay,B25 -> bay D5-5,"arrives 11 %, leaves Fri 06:05, needs 97 %",driver
+2026-11-12 21:15:00+02:00,S5,site,bay,B31 -> bay D5-6,"arrives 8 %, leaves Fri 06:00, needs 97 %",driver
+2026-11-12 21:45:00+02:00,S5,site,bay,B36 -> bay D5-7,"arrives 8 %, leaves Fri 06:10, needs 97 %",driver
+2026-11-12 22:30:00+02:00,S5,site,bay,B35 -> waiting row; planned bay D5-1 at 23:30,all bays busy,driver
+2026-11-12 22:45:00+02:00,S5,site,bay,B34 -> waiting row; planned bay D5-3 at 23:30,all bays busy,driver
+2026-11-12 23:00:00+02:00,S5,site,bay,B33 -> waiting row; planned bay D5-2 at 23:45,all bays busy,driver
+2026-11-12 23:00:00+02:00,S5,site,bay,B27 -> waiting row; planned bay D5-4 at 23:45,all bays busy,driver
+2026-11-12 23:15:00+02:00,S5,site,bay,B28 -> waiting row; planned bay D5-5 at 00:15,all bays busy,driver
+2026-11-12 23:30:00+02:00,S5,site,move,"Planned yard move: move full B32 (90 %) out, plug B34 into D5-3",more vehicles than dispensers,yes
+2026-11-12 23:30:00+02:00,S5,site,move,"Planned yard move: move full B26 (90 %) out, plug B35 into D5-1",more vehicles than dispensers,yes
+2026-11-12 23:45:00+02:00,S5,site,move,"Planned yard move: move full B29 (90 %) out, plug B27 into D5-4",more vehicles than dispensers,yes
+2026-11-12 23:45:00+02:00,S5,site,move,"Planned yard move: move full B30 (90 %) out, plug B33 into D5-2",more vehicles than dispensers,yes
+2026-11-13 00:15:00+02:00,S5,site,move,"Planned yard move: move full B25 (90 %) out, plug B28 into D5-5",more vehicles than dispensers,yes
+2026-11-13 19:45:00+02:00,S5,site,bay,B29 -> bay D5-1,"arrives 8 %, leaves Sat 05:45, needs 90 %",driver
+2026-11-13 20:00:00+02:00,S5,site,bay,B26 -> bay D5-2,"arrives 8 %, leaves Sat 06:10, needs 90 %",driver
+2026-11-13 20:15:00+02:00,S5,site,bay,B32 -> bay D5-3,"arrives 8 %, leaves Sat 05:40, needs 90 %",driver
+2026-11-13 20:15:00+02:00,S5,site,bay,B30 -> bay D5-4,"arrives 8 %, leaves Sat 05:40, needs 90 %",driver
+2026-11-13 20:30:00+02:00,S5,site,bay,B25 -> bay D5-5,"arrives 9 %, leaves Sat 06:05, needs 90 %",driver
+2026-11-13 21:15:00+02:00,S5,site,bay,B31 -> bay D5-6,"arrives 11 %, leaves Sat 06:00, needs 90 %",driver
+2026-11-13 21:45:00+02:00,S5,site,bay,B36 -> bay D5-7,"arrives 8 %, leaves Sat 06:10, needs 90 %",driver
+2026-11-13 22:15:00+02:00,S5,site,bay,B35 -> waiting row; planned bay D5-1 at 23:30,all bays busy,driver
+2026-11-13 22:45:00+02:00,S5,site,bay,B34 -> waiting row; planned bay D5-3 at 00:00,all bays busy,driver
+2026-11-13 22:45:00+02:00,S5,site,bay,B27 -> waiting row; planned bay D5-4 at 00:00,all bays busy,driver
+2026-11-13 22:45:00+02:00,S5,site,bay,B33 -> waiting row; planned bay D5-2 at 23:45,all bays busy,driver
+2026-11-13 23:00:00+02:00,S5,site,bay,B28 -> waiting row; planned bay D5-5 at 00:15,all bays busy,driver
+2026-11-13 23:30:00+02:00,S5,site,move,"Planned yard move: move full B29 (90 %) out, plug B35 into D5-1",more vehicles than dispensers,yes
+2026-11-13 23:45:00+02:00,S5,site,move,"Planned yard move: move full B26 (90 %) out, plug B33 into D5-2",more vehicles than dispensers,yes

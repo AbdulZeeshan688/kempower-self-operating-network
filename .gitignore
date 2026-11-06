@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# hackathon dataset belongs to the organisers: copy it into data/ locally
+data/

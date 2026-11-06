@@ -1,0 +1,74 @@
+{
+  "departures_below_required_soc": {
+    "baseline": 13.0,
+    "autopilot": 0.0,
+    "worst_case": 4.0
+  },
+  "public_abandoned": {
+    "baseline": 77.0,
+    "autopilot": 51.0,
+    "worst_case": 51.0
+  },
+  "energy_cost_eur": {
+    "baseline": 4357.0,
+    "autopilot": 4020.0,
+    "worst_case": 3876.0
+  },
+  "cost_17_19_eur": {
+    "baseline": 1398.0,
+    "autopilot": 948.0,
+    "worst_case": 948.0
+  },
+  "staff_vehicle_moves": {
+    "baseline": 21.0,
+    "autopilot": 14.0,
+    "worst_case": 16.0
+  },
+  "staff_hours": {
+    "baseline": 4.42,
+    "autopilot": 1.87,
+    "worst_case": 4.1
+  },
+  "night_callouts": {
+    "baseline": 1.0,
+    "autopilot": 0.0,
+    "worst_case": 0.0
+  },
+  "energy_mwh": {
+    "baseline": 40.31,
+    "autopilot": 41.84,
+    "worst_case": 40.11
+  },
+  "peak_kw": {
+    "baseline": {
+      "S1": 1080.0,
+      "S2": 800.0,
+      "S3": 1500.0,
+      "S4": 526.0,
+      "S5": 600.0
+    },
+    "autopilot": {
+      "S1": 834.1,
+      "S2": 698.6,
+      "S3": 1500.0,
+      "S4": 497.1,
+      "S5": 462.5
+    },
+    "worst_case": {
+      "S1": 825.3,
+      "S2": 698.6,
+      "S3": 1500.0,
+      "S4": 497.1,
+      "S5": 462.5
+    }
+  },
+  "decisions_friday": 88,
+  "decisions_friday_autonomous": 73,
+  "s2_max_kw_during_cap": 400.0,
+  "commissioning": {
+    "baseline_data": 5,
+    "autopilot_as_configured": 0,
+    "autopilot_config_fixed": 0
+  },
+  "oncall_variant_S1_below": 0
+}
